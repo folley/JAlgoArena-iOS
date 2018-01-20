@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DBB6F132013DC3C002DDD83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB6F122013DC3C002DDD83 /* AppDelegate.swift */; };
+		1DBB6F152013DC3C002DDD83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB6F142013DC3C002DDD83 /* ViewController.swift */; };
+		1DBB6F182013DC3C002DDD83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB6F162013DC3C002DDD83 /* Main.storyboard */; };
+		1DBB6F1A2013DC3C002DDD83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB6F192013DC3C002DDD83 /* Assets.xcassets */; };
+		1DBB6F1D2013DC3C002DDD83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB6F1B2013DC3C002DDD83 /* LaunchScreen.storyboard */; };
+		1DBB6F282013DC3C002DDD83 /* JAlgoArenaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB6F272013DC3C002DDD83 /* JAlgoArenaTests.swift */; };
+		1DBB6F332013DC3C002DDD83 /* JAlgoArenaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB6F322013DC3C002DDD83 /* JAlgoArenaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DBB6F242013DC3C002DDD83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DBB6F072013DC3C002DDD83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DBB6F0E2013DC3C002DDD83;
+			remoteInfo = JAlgoArena;
+		};
+		1DBB6F2F2013DC3C002DDD83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DBB6F072013DC3C002DDD83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DBB6F0E2013DC3C002DDD83;
+			remoteInfo = JAlgoArena;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DBB6F0F2013DC3C002DDD83 /* JAlgoArena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAlgoArena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBB6F122013DC3C002DDD83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DBB6F142013DC3C002DDD83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DBB6F172013DC3C002DDD83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DBB6F192013DC3C002DDD83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DBB6F1C2013DC3C002DDD83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DBB6F1E2013DC3C002DDD83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DBB6F232013DC3C002DDD83 /* JAlgoArenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAlgoArenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBB6F272013DC3C002DDD83 /* JAlgoArenaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAlgoArenaTests.swift; sourceTree = "<group>"; };
+		1DBB6F292013DC3C002DDD83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DBB6F2E2013DC3C002DDD83 /* JAlgoArenaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAlgoArenaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBB6F322013DC3C002DDD83 /* JAlgoArenaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAlgoArenaUITests.swift; sourceTree = "<group>"; };
+		1DBB6F342013DC3C002DDD83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DBB6F0C2013DC3C002DDD83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBB6F202013DC3C002DDD83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBB6F2B2013DC3C002DDD83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DBB6F062013DC3C002DDD83 = {
+			isa = PBXGroup;
+			children = (
+				1DBB6F112013DC3C002DDD83 /* JAlgoArena */,
+				1DBB6F262013DC3C002DDD83 /* JAlgoArenaTests */,
+				1DBB6F312013DC3C002DDD83 /* JAlgoArenaUITests */,
+				1DBB6F102013DC3C002DDD83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DBB6F102013DC3C002DDD83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DBB6F0F2013DC3C002DDD83 /* JAlgoArena.app */,
+				1DBB6F232013DC3C002DDD83 /* JAlgoArenaTests.xctest */,
+				1DBB6F2E2013DC3C002DDD83 /* JAlgoArenaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DBB6F112013DC3C002DDD83 /* JAlgoArena */ = {
+			isa = PBXGroup;
+			children = (
+				1DBB6F122013DC3C002DDD83 /* AppDelegate.swift */,
+				1DBB6F142013DC3C002DDD83 /* ViewController.swift */,
+				1DBB6F162013DC3C002DDD83 /* Main.storyboard */,
+				1DBB6F192013DC3C002DDD83 /* Assets.xcassets */,
+				1DBB6F1B2013DC3C002DDD83 /* LaunchScreen.storyboard */,
+				1DBB6F1E2013DC3C002DDD83 /* Info.plist */,
+			);
+			path = JAlgoArena;
+			sourceTree = "<group>";
+		};
+		1DBB6F262013DC3C002DDD83 /* JAlgoArenaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DBB6F272013DC3C002DDD83 /* JAlgoArenaTests.swift */,
+				1DBB6F292013DC3C002DDD83 /* Info.plist */,
+			);
+			path = JAlgoArenaTests;
+			sourceTree = "<group>";
+		};
+		1DBB6F312013DC3C002DDD83 /* JAlgoArenaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DBB6F322013DC3C002DDD83 /* JAlgoArenaUITests.swift */,
+				1DBB6F342013DC3C002DDD83 /* Info.plist */,
+			);
+			path = JAlgoArenaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DBB6F0E2013DC3C002DDD83 /* JAlgoArena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBB6F372013DC3C002DDD83 /* Build configuration list for PBXNativeTarget "JAlgoArena" */;
+			buildPhases = (
+				1DBB6F0B2013DC3C002DDD83 /* Sources */,
+				1DBB6F0C2013DC3C002DDD83 /* Frameworks */,
+				1DBB6F0D2013DC3C002DDD83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAlgoArena;
+			productName = JAlgoArena;
+			productReference = 1DBB6F0F2013DC3C002DDD83 /* JAlgoArena.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DBB6F222013DC3C002DDD83 /* JAlgoArenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBB6F3A2013DC3C002DDD83 /* Build configuration list for PBXNativeTarget "JAlgoArenaTests" */;
+			buildPhases = (
+				1DBB6F1F2013DC3C002DDD83 /* Sources */,
+				1DBB6F202013DC3C002DDD83 /* Frameworks */,
+				1DBB6F212013DC3C002DDD83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DBB6F252013DC3C002DDD83 /* PBXTargetDependency */,
+			);
+			name = JAlgoArenaTests;
+			productName = JAlgoArenaTests;
+			productReference = 1DBB6F232013DC3C002DDD83 /* JAlgoArenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DBB6F2D2013DC3C002DDD83 /* JAlgoArenaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBB6F3D2013DC3C002DDD83 /* Build configuration list for PBXNativeTarget "JAlgoArenaUITests" */;
+			buildPhases = (
+				1DBB6F2A2013DC3C002DDD83 /* Sources */,
+				1DBB6F2B2013DC3C002DDD83 /* Frameworks */,
+				1DBB6F2C2013DC3C002DDD83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DBB6F302013DC3C002DDD83 /* PBXTargetDependency */,
+			);
+			name = JAlgoArenaUITests;
+			productName = JAlgoArenaUITests;
+			productReference = 1DBB6F2E2013DC3C002DDD83 /* JAlgoArenaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DBB6F072013DC3C002DDD83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Maciej Łobodziński";
+				TargetAttributes = {
+					1DBB6F0E2013DC3C002DDD83 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1DBB6F222013DC3C002DDD83 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DBB6F0E2013DC3C002DDD83;
+					};
+					1DBB6F2D2013DC3C002DDD83 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DBB6F0E2013DC3C002DDD83;
+					};
+				};
+			};
+			buildConfigurationList = 1DBB6F0A2013DC3C002DDD83 /* Build configuration list for PBXProject "JAlgoArena" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DBB6F062013DC3C002DDD83;
+			productRefGroup = 1DBB6F102013DC3C002DDD83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DBB6F0E2013DC3C002DDD83 /* JAlgoArena */,
+				1DBB6F222013DC3C002DDD83 /* JAlgoArenaTests */,
+				1DBB6F2D2013DC3C002DDD83 /* JAlgoArenaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DBB6F0D2013DC3C002DDD83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBB6F1D2013DC3C002DDD83 /* LaunchScreen.storyboard in Resources */,
+				1DBB6F1A2013DC3C002DDD83 /* Assets.xcassets in Resources */,
+				1DBB6F182013DC3C002DDD83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBB6F212013DC3C002DDD83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBB6F2C2013DC3C002DDD83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DBB6F0B2013DC3C002DDD83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBB6F152013DC3C002DDD83 /* ViewController.swift in Sources */,
+				1DBB6F132013DC3C002DDD83 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBB6F1F2013DC3C002DDD83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBB6F282013DC3C002DDD83 /* JAlgoArenaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBB6F2A2013DC3C002DDD83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBB6F332013DC3C002DDD83 /* JAlgoArenaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DBB6F252013DC3C002DDD83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DBB6F0E2013DC3C002DDD83 /* JAlgoArena */;
+			targetProxy = 1DBB6F242013DC3C002DDD83 /* PBXContainerItemProxy */;
+		};
+		1DBB6F302013DC3C002DDD83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DBB6F0E2013DC3C002DDD83 /* JAlgoArena */;
+			targetProxy = 1DBB6F2F2013DC3C002DDD83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DBB6F162013DC3C002DDD83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DBB6F172013DC3C002DDD83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DBB6F1B2013DC3C002DDD83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DBB6F1C2013DC3C002DDD83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBB6F352013DC3C002DDD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DBB6F362013DC3C002DDD83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DBB6F382013DC3C002DDD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K923Y7RZ24;
+				INFOPLIST_FILE = JAlgoArena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismake.JAlgoArena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DBB6F392013DC3C002DDD83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K923Y7RZ24;
+				INFOPLIST_FILE = JAlgoArena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismake.JAlgoArena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DBB6F3B2013DC3C002DDD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K923Y7RZ24;
+				INFOPLIST_FILE = JAlgoArenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismake.JAlgoArenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAlgoArena.app/JAlgoArena";
+			};
+			name = Debug;
+		};
+		1DBB6F3C2013DC3C002DDD83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K923Y7RZ24;
+				INFOPLIST_FILE = JAlgoArenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismake.JAlgoArenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAlgoArena.app/JAlgoArena";
+			};
+			name = Release;
+		};
+		1DBB6F3E2013DC3C002DDD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K923Y7RZ24;
+				INFOPLIST_FILE = JAlgoArenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismake.JAlgoArenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JAlgoArena;
+			};
+			name = Debug;
+		};
+		1DBB6F3F2013DC3C002DDD83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K923Y7RZ24;
+				INFOPLIST_FILE = JAlgoArenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismake.JAlgoArenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JAlgoArena;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBB6F0A2013DC3C002DDD83 /* Build configuration list for PBXProject "JAlgoArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBB6F352013DC3C002DDD83 /* Debug */,
+				1DBB6F362013DC3C002DDD83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBB6F372013DC3C002DDD83 /* Build configuration list for PBXNativeTarget "JAlgoArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBB6F382013DC3C002DDD83 /* Debug */,
+				1DBB6F392013DC3C002DDD83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBB6F3A2013DC3C002DDD83 /* Build configuration list for PBXNativeTarget "JAlgoArenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBB6F3B2013DC3C002DDD83 /* Debug */,
+				1DBB6F3C2013DC3C002DDD83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBB6F3D2013DC3C002DDD83 /* Build configuration list for PBXNativeTarget "JAlgoArenaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBB6F3E2013DC3C002DDD83 /* Debug */,
+				1DBB6F3F2013DC3C002DDD83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DBB6F072013DC3C002DDD83 /* Project object */;
+}
