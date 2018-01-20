@@ -14,6 +14,7 @@
 		1DBB6F1D2013DC3C002DDD83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB6F1B2013DC3C002DDD83 /* LaunchScreen.storyboard */; };
 		1DBB6F282013DC3C002DDD83 /* JAlgoArenaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB6F272013DC3C002DDD83 /* JAlgoArenaTests.swift */; };
 		1DBB6F332013DC3C002DDD83 /* JAlgoArenaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB6F322013DC3C002DDD83 /* JAlgoArenaUITests.swift */; };
+		1DBB6F412013DD78002DDD83 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB6F402013DD78002DDD83 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1DBB6F2E2013DC3C002DDD83 /* JAlgoArenaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAlgoArenaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DBB6F322013DC3C002DDD83 /* JAlgoArenaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAlgoArenaUITests.swift; sourceTree = "<group>"; };
 		1DBB6F342013DC3C002DDD83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DBB6F402013DD78002DDD83 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1DBB6F192013DC3C002DDD83 /* Assets.xcassets */,
 				1DBB6F1B2013DC3C002DDD83 /* LaunchScreen.storyboard */,
 				1DBB6F1E2013DC3C002DDD83 /* Info.plist */,
+				1DBB6F402013DD78002DDD83 /* Extensions.swift */,
 			);
 			path = JAlgoArena;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DBB6F152013DC3C002DDD83 /* ViewController.swift in Sources */,
+				1DBB6F412013DD78002DDD83 /* Extensions.swift in Sources */,
 				1DBB6F132013DC3C002DDD83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

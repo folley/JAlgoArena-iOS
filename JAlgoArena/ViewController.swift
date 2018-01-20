@@ -7,19 +7,37 @@
 //
 
 import UIKit
+import WebKit
 
-class ViewController: UIViewController {
-
+class ViewController : UIViewController {
+    
+    @IBOutlet weak var webViewContainer: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let webView = WKWebView.init()
+        webViewContainer.addSubviewWithConstraints(webView)
+        
+        let url = URL(string: "https://lobodzinski-arena-ui.herokuapp.com/")
+        if let unwrappedURL = url {
+            
+            let request = URLRequest(url: unwrappedURL)
+            let session = URLSession.shared
+            
+            let task = session.dataTask(with: request) { (data, response, error) in
+                
+                if error == nil {
+                    DispatchQueue.main.async {
+                        webView.load(request)
+                    }
+                }
+                else {
+                    print("ERROR: \(error)")
+                }
+            }
+            task.resume()
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
